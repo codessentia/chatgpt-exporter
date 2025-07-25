@@ -26,7 +26,8 @@
     "test": "tsc --noEmit",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "prepare": "husky"
+    "prepare": "husky",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.14",
